@@ -197,7 +197,11 @@
 }
 - (void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)err{
     
+<<<<<<< HEAD
     NSLog(@"连接。。。。。。");
+=======
+    NSLog(@"连接。。");
+>>>>>>> master
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag{
