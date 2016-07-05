@@ -197,7 +197,7 @@
 }
 - (void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)err{
     
-    NSLog(@"连接。。。。");
+    NSLog(@"连接。。。。。。");
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag{
